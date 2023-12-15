@@ -1,4 +1,4 @@
-import java.math.math.BigDecimal;
+import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class Bmi{
 		Scanner scanner = new Scanner(System.in);
 		double height = Integer.parseInt(scanner.nextLine());
 		System.out.println("体重");
-		double weighe = Integer.parseInt(scanner.nextLine());
+		double weight = Integer.parseInt(scanner.nextLine());
 
 		double result = weight / (height * height)*10000;
 		
