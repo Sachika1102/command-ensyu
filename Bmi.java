@@ -1,13 +1,15 @@
 import java.math.math.BigDecimal;
 import java.math.RoundingMode;
+import java.util.Scanner;
 
 public class Bmi{
 	public static void main(String[] args){
 		System.out.println("1人目のBMIを表示");
-		double height = 150.0;
-		double weighe = 42.0;
-		System.out.println("身長:" + height + "(cm)");
-		System.out.println("体重:" + weight + "(kg)");
+		System.out.println("身長");
+		Scanner scanner = new Scanner(System.in);
+		double height = Integer.parseInt(scanner.nextLine());
+		System.out.println("体重");
+		double weighe = Integer.parseInt(scanner.nextLine());
 
 		double result = weight / (height * height)*10000;
 		
@@ -16,10 +18,11 @@ public class Bmi{
 		System.out.println("BMIは" + bmi + "です");
 
 		System.out.println("2人目のBMIを表示");
-		double height2 = 175.0;
-		double weight2 = 65.0;
-		System.out.println("身長:" + height2 + "(cm)");
-		System.out.println("体重:" + weight2 + "(kg)");
+		System.out.println("身長");
+
+		double height2 = Integer.parseInt(scanner.nextLine());
+		System.out.println("体重");
+		double weight2 = Integer.parseInt(scanner.nextLine());
 
 		double result2 = weight / (height * height)*10000;
 
