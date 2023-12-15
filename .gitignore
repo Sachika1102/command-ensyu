@@ -1,1 +1,3 @@
-#.gitignoreのファイルの内容
+*.class
+
+sample/

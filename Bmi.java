@@ -1,7 +1,7 @@
 import java.math.math.BigDecimal;
 import java.math.RoundingMode;
 
-public class main{
+public class Bmi{
 	public static void main(String[] args){
 		System.out.println("1人目のBMIを表示");
 		double height = 150.0;
